@@ -8,13 +8,14 @@
 body{
     min-height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #D5E1EF;
 }
 
 .container{
-    max-width: 375px;
+    max-width: 275px;
     background-color: #fff;
     padding: 15px;
     margin: 0 20px;
@@ -29,8 +30,8 @@ body{
 .img{
     width: 100%;
     min-width: 200px;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-top: 6px;
+    margin-bottom: 10px;
 }
 
 .img img{
@@ -45,9 +46,34 @@ h2,p{
     font-family: 'Outfit' ,sans-serif;
 }
 
+h2{
+    font-size: 18px;
+}
+
 p{
     margin: 0 10px;
-    margin-top: 20px;
+    margin-top: 10px;
+    font-size: 12px;
     color: #aaa;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+}
+
+footer  p{
+    color: #7b879d;
+    text-wrap: nowrap;
+} 
+
+footer p a{
+    color: #1f3251;
+    text-decoration: none;
+}
+
+footer p a:hover{
+    color: #1858be;
+    text-decoration: underline;
 }
